@@ -15,11 +15,11 @@ in order to manage these disparate services.
 
 # Deploying docker-run
 
-To deploy **docker-run**, use the following command in terminal within the folder that the docker-run's files have been placed in:
+To deploy **docker-run**, using a single ***docker run*** command, type following command in terminal within docker-run's folder:
 
     docker run --name etl_api -p 8000:8000 -d --rm -it $(docker build -q .)
 
-You can type the following address into a web browser to explore the core functions of the API in a GUI setting:
+You can also type the following address into a web browser to explore the core functions of the API in a GUI setting:
 
     http://127.0.0.1:8000/docs
 
