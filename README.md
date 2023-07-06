@@ -47,7 +47,7 @@ To perform the unit-tests for **docker-run** enter its container after it has be
 
     docker exec -it etl_api bash
 
-Once in, type in the following:
+Once in the container's terminal, run the following command:
 
     python -m pytest
 
