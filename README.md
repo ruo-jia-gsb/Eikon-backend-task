@@ -23,7 +23,7 @@ You can type the following address into a web browser to explore the core functi
 
     http://127.0.0.1:8000/docs
 
-Incidentally, if you want to perform the etl of the data files as CURL use the following in a terminal:
+Incidentally, if you want to perform the ETL of the data files through CURL use the following in a terminal:
 
     curl -X 'POST' 'http://127.0.0.1:8000/etl/' -H 'accept: application/json' -d ''
 
@@ -37,7 +37,7 @@ Like **docker-run**, typing the following address into a web browser allows you 
 
     http://127.0.0.1:8000/docs
 
-Likewise, the etl of the data files via CURL is also just:
+Likewise, performing the ETL of the data files via CURL is also just:
 
     curl -X 'POST' 'http://127.0.0.1:8000/etl/' -H 'accept: application/json' -d ''
 
