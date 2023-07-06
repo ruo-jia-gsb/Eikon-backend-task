@@ -8,7 +8,8 @@ There are two folders for the backend task, that have use different infrastructu
   3. docker-compose: This deploys the postgres server, python-api, and also creates pgadmin to inspect the database, as a set of microservices. No testing file
      was created for docker-compose as it wasn't part of the original request. 
 
-The advantage of docker-run is that everything is in one environment. It's disadvantage is that it allows for less dynamic updating and exploration of changes. 
+The advantage of docker-run is that everything is in one environment, which saves on resources. It's disadvantage is in scaling, lack dynamic updating, and slower 
+iteration when implementing changes to the API. 
 
 The advantage of docker-compose is that it will scale better as other services are included. It's disadvantage is the potential for a higher burden on resources 
 in order to manage these disparate services.
