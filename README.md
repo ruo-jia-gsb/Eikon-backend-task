@@ -15,7 +15,7 @@ in order to manage these disparate services.
 
 # Deploying docker-run
 
-To deploy **docker-run**, using a single ***docker run*** command, type following command in terminal within docker-run's folder:
+To deploy **docker-run**, using a single ***docker run*** command, run the following command in terminal within docker-run's folder:
 
     docker run --name etl_api -p 8000:8000 -d --rm -it $(docker build -q .)
 
@@ -29,7 +29,7 @@ Incidentally, if you want to perform the ETL of the data files through CURL use 
 
 # Deploying docker-compose
 
-To deploy **docker-compose**, use the following command in terminal within the folder that the docker-run's files have been placed in:
+To deploy **docker-compose**, use the following command in terminal within the folder that the docker-compose's files have been placed in:
 
     docker-compose up
 
@@ -43,7 +43,7 @@ Likewise, performing the ETL of the data files via CURL is also just:
 
 # Unit tests of docker-run
 
-To perform the unit-tests for **docker-run** enter its container after it has been deployed with the following command in terminal:
+To perform the unit-tests for **docker-run**, enter its container after it has been deployed with the following command in terminal:
 
     docker exec -it etl_api bash
 
