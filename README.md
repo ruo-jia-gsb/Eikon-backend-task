@@ -60,15 +60,22 @@ and the compound she has used the most is Compound B.
 The main libraries used to build these APIs (also in the requirements.txt) are:
 
 fastapi==0.97.0
+
 httpx==0.24.1
+
 pandas==2.0.2
+
 psycopg2-binary==2.9.6
+
 pydantic==1.10.9
+
 pytest==7.4.0
+
 python-dateutil==2.8.2
+
 python-dotenv==1.0.0
+
 SQLAlchemy==2.0.16
+
 uvicorn==0.22.0
-
-
 
